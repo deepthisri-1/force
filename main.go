@@ -10,7 +10,7 @@ import (
 
 func main() {
 	args := os.Args[1:]
-	if len(args) < 1 {
+	if len(args) < 1 and len(args)<2 {
 		command.Usage()
 	}
 
